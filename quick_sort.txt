@@ -1,1 +1,1 @@
-//write an algorithm for quick sort
+The pivot is chosen as the last element in this case. We sort the array around this element. Elements greater than the pivot are placed to the right and the remaining to the left. Thus, the pivot comes to its correct position after the first iteration. This is then repeated recursively by taking the pivot index and doing it again for the left and right half with suitable arguments.
